@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+.env
+.DS_Store
+.streamlit/
+data/student_data.csv
+data/X_train_sample.csv
+models/*.pkl
