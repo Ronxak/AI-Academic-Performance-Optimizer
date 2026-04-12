@@ -9,4 +9,4 @@ ENV/
 .streamlit/
 data/student_data.csv
 data/X_train_sample.csv
-models/*.pkl
+# models/*.pkl
