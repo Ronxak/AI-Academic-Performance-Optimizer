@@ -40,7 +40,7 @@ def main():
         upcoming_exam_str = st.selectbox("Upcoming Exam?", ["No", "Yes"])
         upcoming_exam = 1 if upcoming_exam_str == "Yes" else 0
 
-    if st.button("🚀 Analyze", use_container_width=True, type="primary"):
+    if st.button("Analyze", use_container_width=True, type="primary"):
         # Wrap inputs
         input_dict = {
             'avg_sleep_7d': avg_sleep_7d,
